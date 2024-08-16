@@ -1,0 +1,16 @@
+{
+    "@odata.type": "#EventService.v1_10_1.EventService",
+    "Id": "EventService",
+    "Name": "EventService Service",
+    "Description": "Open Fabric Manager Event Service",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "ServiceEnabled": true,
+    "Subscriptions" : {
+        "@odata.id" : "/redfish/v1/EventService/Subscriptions"
+    },
+
+    "@odata.id": "/redfish/v1/EventService"
+}
